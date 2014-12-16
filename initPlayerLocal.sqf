@@ -1,0 +1,1 @@
+null = [player] execVM "loadout.sqf";
