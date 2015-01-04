@@ -660,7 +660,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			for "_i" from 1 to 4 do {_unit addItemToVest "SmokeShell";};
 			for "_i" from 1 to 6 do {_unit addItemToVest "30Rnd_mas_556x45_Stanag";};
 			_unit addBackpack "NOR_Carryall_Wood";
-			_unit addItemToBackpack "STI_84MM_HEAT";
+			for "_i" from 1 to 2 do {_unit addItemToBackpack "STI_84MM_HEAT";};
 			_unit addHeadgear "vdo_opscore_green_2_peltor";
 			_unit addGoggles "Pomi_Goggles_Grn";
 					
