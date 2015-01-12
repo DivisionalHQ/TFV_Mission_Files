@@ -306,7 +306,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addBackpack "tf_rt1523g_rhs";
 		_unit addItemToBackpack "AGM_NVG_Gen4";
 		_unit addItemToBackpack "muzzle_snds_M";
-		_unit addHeadgear "vdo_opscore_sand_2_peltor";
 		_unit addGoggles "Pomi_Goggles_Snd";
 		
 	comment "Add weapons";
@@ -359,7 +358,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addBackpack "tf_rt1523g_rhs";
 		_unit addItemToBackpack "AGM_NVG_Gen4";
 		_unit addItemToBackpack "muzzle_snds_M";
-		_unit addHeadgear "vdo_opscore_sand_2_peltor";
 		_unit addGoggles "Pomi_Goggles_Snd";
 		
 	comment "Add weapons";
@@ -403,7 +401,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 5 do {_unit addItemToVest "Chemlight_green";};
 		for "_i" from 1 to 6 do {_unit addItemToVest "30Rnd_556x45_Stanag";};
 		_unit addBackpack "B_Kitbag_cbr";
-		_unit addHeadgear "vdo_opscore_sand_2_peltor";
 		_unit addGoggles "Pomi_Goggles_Snd";
 	
 	comment "Add weapons";
@@ -455,7 +452,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "rhs_mag_m4009";};
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "1Rnd_HE_Grenade_shell";};
-		_unit addHeadgear "vdo_opscore_sand_2_peltor";
 		_unit addGoggles "Pomi_Goggles_Snd";
 
 	comment "Add weapons";
@@ -498,7 +494,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 2 do {_unit addItemToVest "R3F_100Rnd_762x51_MINIMI";};
 		_unit addBackpack "B_AssaultPack_cbr";
 		_unit addItemToBackpack "AGM_NVG_Wide";
-		_unit addHeadgear "vdo_opscore_sand_2_peltor";
 		_unit addGoggles "Pomi_Goggles_Snd";
 
 	comment "Add weapons";
@@ -543,7 +538,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addBackpack "B_AssaultPack_cbr";
 		_unit addItemToBackpack "AGM_NVG_Wide";
 		_unit addItemToBackpack "R3F_200Rnd_556x45_MINIMI";
-		_unit addHeadgear "vdo_opscore_sand_2_peltor";
 		_unit addGoggles "Pomi_Goggles_Snd";
 
 	comment "Add weapons";
@@ -592,7 +586,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addBackpack "B_Kitbag_cbr";
 		_unit addItemToBackpack "MineDetector";
 		for "_i" from 1 to 4 do {_unit addItemToBackpack "DemoCharge_Remote_Mag";};
-		_unit addHeadgear "vdo_opscore_sand_2_peltor";
 		_unit addGoggles "Pomi_Goggles_Snd";
 
 	comment "Add weapons";
@@ -637,7 +630,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addItemToVest "SmokeShell";
 		_unit addBackpack "B_Kitbag_cbr";
 		_unit addItemToBackpack "STI_84MM_HEAT";
-		_unit addHeadgear "vdo_opscore_sand_2_peltor";
 		_unit addGoggles "Pomi_Goggles_Snd";
 
 	comment "Add weapons";
@@ -683,7 +675,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 6 do {_unit addItemToVest "rhsusf_5Rnd_300winmag_xm2010";};
 		_unit addBackpack "B_Kitbag_cbr";
 		for "_i" from 1 to 4 do {_unit addItemToBackpack "rhsusf_5Rnd_300winmag_xm2010";};
-		_unit addHeadgear "vdo_opscore_sand_2_peltor";
 		_unit addGoggles "Pomi_Goggles_Snd";
 
 	comment "Add weapons";
@@ -736,7 +727,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "SLAMDirectionalMine_Wire_Mag";};
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "SmokeShellPurple";};
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "SmokeShell";};
-		_unit addHeadgear "vdo_opscore_sand_2_peltor";
 		_unit addGoggles "Pomi_Goggles_Snd";
 
 	comment "Add weapons";
