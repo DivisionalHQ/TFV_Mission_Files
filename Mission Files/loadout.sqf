@@ -286,7 +286,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
 		removeBackpack _unit;
-		removeHeadgear _unit;
 		removeGoggles _unit;
 		
 	comment "Add containers";
@@ -339,7 +338,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
 		removeBackpack _unit;
-		removeHeadgear _unit;
 		removeGoggles _unit;
 		
 	comment "Add containers";
@@ -391,7 +389,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
 		removeBackpack _unit;
-		removeHeadgear _unit;
 		removeGoggles _unit;
 	
 	comment "Add containers";
@@ -433,7 +430,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
 		removeBackpack _unit;
-		removeHeadgear _unit;
 		removeGoggles _unit;
 
 	comment "Add containers";
@@ -483,7 +479,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
 		removeBackpack _unit;
-		removeHeadgear _unit;
 		removeGoggles _unit;
 
 	comment "Add containers";
@@ -525,7 +520,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
 		removeBackpack _unit;
-		removeHeadgear _unit;
 		removeGoggles _unit;
 
 	comment "Add containers";
@@ -570,7 +564,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
 		removeBackpack _unit;
-		removeHeadgear _unit;
 		removeGoggles _unit;
 
 	comment "Add containers";
@@ -617,7 +610,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
 		removeBackpack _unit;
-		removeHeadgear _unit;
 		removeGoggles _unit;
 
 	comment "Add containers";
@@ -662,7 +654,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
 		removeBackpack _unit;
-		removeHeadgear _unit;
 		removeGoggles _unit;
 
 	comment "Add containers";
@@ -706,7 +697,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
 		removeBackpack _unit;
-		removeHeadgear _unit;
 		removeGoggles _unit;
 
 	comment "Add containers";
