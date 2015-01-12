@@ -285,8 +285,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllWeapons _unit;
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
-		removeUniform _unit;
-		removeVest _unit;
 		removeBackpack _unit;
 		removeHeadgear _unit;
 		removeGoggles _unit;
@@ -294,7 +292,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add containers";
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
-		_unit addVest "TFV_Vest_Standard_Desert";
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_CableTie";};
 		for "_i" from 1 to 8 do {_unit addItemToVest "30Rnd_556x45_Stanag";};
@@ -341,8 +338,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllWeapons _unit;
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
-		removeUniform _unit;
-		removeVest _unit;
 		removeBackpack _unit;
 		removeHeadgear _unit;
 		removeGoggles _unit;
@@ -350,7 +345,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add containers";
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
-		_unit addVest "TFV_Vest_Standard_Desert";
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_CableTie";};
 		for "_i" from 1 to 8 do {_unit addItemToVest "30Rnd_556x45_Stanag";};
@@ -396,8 +390,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllWeapons _unit;
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
-		removeUniform _unit;
-		removeVest _unit;
 		removeBackpack _unit;
 		removeHeadgear _unit;
 		removeGoggles _unit;
@@ -405,7 +397,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add containers";
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
-		_unit addVest "TFV_Vest_Standard_Desert";
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
@@ -442,8 +433,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllWeapons _unit;
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
-		removeUniform _unit;
-		removeVest _unit;
 		removeBackpack _unit;
 		removeHeadgear _unit;
 		removeGoggles _unit;
@@ -451,7 +440,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add containers";
 		for "_i" from 1 to 5 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
-		_unit addVest "TFV_Vest_Standard_Desert";
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_CableTie";};
 		_unit addItemToVest "muzzle_snds_M";
@@ -496,8 +484,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllWeapons _unit;
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
-		removeUniform _unit;
-		removeVest _unit;
 		removeBackpack _unit;
 		removeHeadgear _unit;
 		removeGoggles _unit;
@@ -505,7 +491,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add containers";
 		for "_i" from 1 to 5 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
-		_unit addVest "TFV_Vest_Standard_Desert";
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 		_unit addItemToVest "rhs_mag_m67";
@@ -542,8 +527,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllWeapons _unit;
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
-		removeUniform _unit;
-		removeVest _unit;
 		removeBackpack _unit;
 		removeHeadgear _unit;
 		removeGoggles _unit;
@@ -551,7 +534,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add containers";
 		for "_i" from 1 to 5 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
-		_unit addVest "TFV_Vest_Standard_Desert";
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		_unit addItemToVest "muzzle_snds_H_MG";
 		for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
@@ -591,8 +573,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllWeapons _unit;
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
-		removeUniform _unit;
-		removeVest _unit;
 		removeBackpack _unit;
 		removeHeadgear _unit;
 		removeGoggles _unit;
@@ -602,7 +582,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addItemToUniform "AGM_DefusalKit";
 		_unit addItemToUniform "AGM_Clacker";
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
-		_unit addVest "TFV_Vest_Standard_Desert";
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_CableTie";};
 		_unit addItemToVest "muzzle_snds_M";
@@ -642,8 +621,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllWeapons _unit;
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
-		removeUniform _unit;
-		removeVest _unit;
 		removeBackpack _unit;
 		removeHeadgear _unit;
 		removeGoggles _unit;
@@ -651,7 +628,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add containers";
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
-		_unit addVest "TFV_Vest_Standard_Desert";
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_CableTie";};
 		_unit addItemToVest "AGM_NVG_Wide";
@@ -691,8 +667,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllWeapons _unit;
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
-		removeUniform _unit;
-		removeVest _unit;
 		removeBackpack _unit;
 		removeHeadgear _unit;
 		removeGoggles _unit;
@@ -700,7 +674,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add containers";
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
-		_unit addVest "TFV_Vest_Standard_Wood";
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_CableTie";};
 		_unit addItemToVest "AGM_NVG_Wide";
@@ -739,8 +712,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeAllWeapons _unit;
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
-		removeUniform _unit;
-		removeVest _unit;
 		removeBackpack _unit;
 		removeHeadgear _unit;
 		removeGoggles _unit;
@@ -751,7 +722,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addItemToUniform "AGM_Clacker";
 		_unit addItemToUniform "AGM_ItemKestrel";
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
-		_unit addVest "TFV_Vest_Standard_Wood";
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_CableTie";};
 		_unit addItemToVest "AGM_NVG_Wide";
