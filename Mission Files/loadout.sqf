@@ -292,7 +292,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeGoggles _unit;
 		
 	comment "Add containers";
-		_unit forceAddUniform "TFV_Uniform_Desert";
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		_unit addVest "TFV_Vest_Standard_Desert";
@@ -349,7 +348,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeGoggles _unit;
 		
 	comment "Add containers";
-		_unit forceAddUniform "TFV_Uniform_Desert";
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		_unit addVest "TFV_Vest_Standard_Desert";
@@ -405,7 +403,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeGoggles _unit;
 	
 	comment "Add containers";
-		_unit forceAddUniform "TFV_Uniform_Desert";
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		_unit addVest "TFV_Vest_Standard_Desert";
@@ -452,7 +449,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeGoggles _unit;
 
 	comment "Add containers";
-		_unit forceAddUniform "TFV_Uniform_Desert";
 		for "_i" from 1 to 5 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		_unit addVest "TFV_Vest_Standard_Desert";
@@ -496,7 +492,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 //MACHINE GUNNER 1--------------------------------------------------------------------------
 	if ((typeOf _unit) in _TFVAutoRifleman1) then 
 	{
-			comment "Remove existing items";
+	comment "Remove existing items";
 		removeAllWeapons _unit;
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
@@ -507,7 +503,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeGoggles _unit;
 
 	comment "Add containers";
-		_unit forceAddUniform "TFV_Uniform_Desert";
 		for "_i" from 1 to 5 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		_unit addVest "TFV_Vest_Standard_Desert";
@@ -554,7 +549,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeGoggles _unit;
 
 	comment "Add containers";
-		_unit forceAddUniform "TFV_Uniform_Desert";
 		for "_i" from 1 to 5 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		_unit addVest "TFV_Vest_Standard_Desert";
@@ -593,7 +587,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	if ((typeOf _unit) in _TFVRifleMan) then 
 	{
 	
-			comment "Remove existing items";
+	comment "Remove existing items";
 		removeAllWeapons _unit;
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
@@ -604,7 +598,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeGoggles _unit;
 
 	comment "Add containers";
-		_unit forceAddUniform "TFV_Uniform_Desert";
 		for "_i" from 1 to 5 do {_unit addItemToUniform "AGM_CableTie";};
 		_unit addItemToUniform "AGM_DefusalKit";
 		_unit addItemToUniform "AGM_Clacker";
@@ -645,7 +638,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	if ((typeOf _unit) in _TFVAntiTank) then 
 	{
 	
-			comment "Remove existing items";
+	comment "Remove existing items";
 		removeAllWeapons _unit;
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
@@ -656,7 +649,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeGoggles _unit;
 
 	comment "Add containers";
-		_unit forceAddUniform "TFV_Uniform_Desert";
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		_unit addVest "TFV_Vest_Standard_Desert";
@@ -695,7 +687,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	if ((typeOf _unit) in _TFVSniper) then 
 	{
 	
-			comment "Remove existing items";
+	comment "Remove existing items";
 		removeAllWeapons _unit;
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
@@ -706,7 +698,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeGoggles _unit;
 
 	comment "Add containers";
-		_unit forceAddUniform "NOR_Ghillie_Wood";
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		_unit addVest "TFV_Vest_Standard_Wood";
@@ -744,7 +735,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	if ((typeOf _unit) in _TFVSpotter) then 
 	{
 	
-			comment "Remove existing items";
+	comment "Remove existing items";
 		removeAllWeapons _unit;
 		removeAllItems _unit;
 		removeAllAssignedItems _unit;
@@ -755,7 +746,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeGoggles _unit;
 
 	comment "Add containers";
-		_unit forceAddUniform "NOR_Ghillie_Wood";
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		_unit addItemToUniform "AGM_DefusalKit";
 		_unit addItemToUniform "AGM_Clacker";
