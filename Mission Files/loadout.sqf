@@ -415,9 +415,9 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add items";
 		_unit linkItem "ItemMap";
 		_unit linkItem "ItemCompass";
-		_unit linkItem "AGM_Altimeter";
 		_unit linkItem "ItemGPS";
 		_unit linkItem "itemRadio";
+		_unit linkItem "tf_microdagr";
 	
 	comment "Set identity";
 		[_unit,"NOR_Insignia_viking_Desert"] call bis_fnc_setUnitInsignia;
@@ -466,7 +466,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add items";
 		_unit linkItem "ItemMap";
 		_unit linkItem "ItemCompass";
-		_unit linkItem "AGM_Altimeter";
+		_unit linkItem "tf_microdagr";
 		_unit linkItem "ItemGPS";
 		_unit linkItem "itemRadio";
 
@@ -507,7 +507,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add items";
 		_unit linkItem "ItemMap";
 		_unit linkItem "ItemCompass";
-		_unit linkItem "AGM_Altimeter";
+		_unit linkItem "tf_microdagr";
 		_unit linkItem "itemRadio";
 		_unit linkItem "ItemGPS";
 
@@ -550,7 +550,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add items";
 		_unit linkItem "ItemMap";
 		_unit linkItem "ItemCompass";
-		_unit linkItem "AGM_Altimeter";
+		_unit linkItem "tf_microdagr";
 		_unit linkItem "itemRadio";
 		_unit linkItem "ItemGPS";
 
@@ -598,7 +598,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add items";
 		_unit linkItem "ItemMap";
 		_unit linkItem "ItemCompass";
-		_unit linkItem "AGM_Altimeter";
+		_unit linkItem "tf_microdagr";
 		_unit linkItem "ItemGPS";
 		_unit linkItem "itemRadio";
 
@@ -643,7 +643,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add items";
 		_unit linkItem "ItemMap";
 		_unit linkItem "ItemCompass";
-		_unit linkItem "AGM_Altimeter";
+		_unit linkItem "tf_microdagr";
 		_unit linkItem "ItemGPS";
 		_unit linkItem "itemRadio";
 
@@ -687,7 +687,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add items";
 		_unit linkItem "ItemMap";
 		_unit linkItem "ItemCompass";
-		_unit linkItem "AGM_Altimeter";
+		_unit linkItem "tf_microdagr";
 		_unit linkItem "ItemGPS";
 		_unit linkItem "itemRadio";
 
@@ -740,7 +740,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add items";
 		_unit linkItem "ItemMap";
 		_unit linkItem "ItemCompass";
-		_unit linkItem "AGM_Altimeter";
+		_unit linkItem "tf_microdagr";
 		_unit linkItem "ItemGPS";
 		_unit linkItem "itemRadio";
 
