@@ -409,13 +409,13 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 		for "_i" from 1 to 5 do {_unit addItemToVest "Chemlight_green";};
 		for "_i" from 1 to 6 do {_unit addItemToVest "30Rnd_556x45_Stanag";};
+		_unit addBackpack "B_Kitbag_cbr";
 		for "_i" from 1 to 30 do {_unit addItemToBackpack "cse_packing_bandage";};
 		for "_i" from 1 to 10 do {_unit addItemToBackpack "cse_morphine";};
 		for "_i" from 1 to 10 do {_unit addItemToBackpack "cse_epinephrine";};
 		for "_i" from 1 to 10 do {_unit addItemToBackpack "cse_atropine";};
 		for "_i" from 1 to 5 do {_unit addItemToBackpack "cse_blood_iv";};
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "cse_personal_aid_kit";};
-		_unit addBackpack "B_Kitbag_cbr";
 		_unit addGoggles "Pomi_Goggles_Snd";
 	
 	comment "Add weapons";
