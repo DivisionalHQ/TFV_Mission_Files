@@ -292,7 +292,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		for "_i" from 1 to 5 do {_unit addItemToUniform "cse_bandage_basic";};
-		for "_i" from 1 to 4 do {_unit addItemToUniform "cse_morphine";};
 		_unit addItemToUniform "cse_tourniquet";
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_CableTie";};
@@ -302,6 +301,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addItemToVest "1Rnd_SmokeGreen_Grenade_shell";
 		_unit addItemToVest "1Rnd_SmokeRed_Grenade_shell";
 		_unit addItemToVest "UGL_FlareCIR_F";
+		for "_i" from 1 to 4 do {_unit addItemToVest "cse_morphine";};
 		for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 		for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellGreen";};
 		for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellRed";};
@@ -349,7 +349,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		for "_i" from 1 to 5 do {_unit addItemToUniform "cse_bandage_basic";};
-		for "_i" from 1 to 4 do {_unit addItemToUniform "cse_morphine";};
 		_unit addItemToUniform "cse_tourniquet";
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_CableTie";};
@@ -363,6 +362,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellGreen";};
 		for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellRed";};
 		for "_i" from 1 to 5 do {_unit addItemToVest "Chemlight_green";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "cse_morphine";};
 		_unit addBackpack "tf_rt1523g_rhs";
 		_unit addItemToBackpack "AGM_NVG_Gen4";
 		_unit addItemToBackpack "itemAndroid";
@@ -455,7 +455,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_CableTie";};
 		for "_i" from 1 to 5 do {_unit addItemToUniform "cse_bandage_basic";};
-		for "_i" from 1 to 4 do {_unit addItemToUniform "cse_morphine";};
 		_unit addItemToUniform "cse_tourniquet";
 		_unit addItemToVest "muzzle_snds_M";
 		for "_i" from 1 to 5 do {_unit addItemToVest "Chemlight_green";};
@@ -465,6 +464,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 2 do {_unit addItemToVest "1Rnd_HE_Grenade_shell";};
 		for "_i" from 1 to 2 do {_unit addItemToVest "1Rnd_Smoke_Grenade_shell";};
 		for "_i" from 1 to 2 do {_unit addItemToVest "UGL_FlareCIR_F";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "cse_morphine";};
 		_unit addBackpack "B_Kitbag_cbr";
 		_unit addItemToBackpack "AGM_NVG_Wide";
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "rhs_mag_m4009";};
@@ -507,13 +507,13 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 5 do {_unit addItemToUniform "cse_bandage_basic";};
-		for "_i" from 1 to 4 do {_unit addItemToUniform "cse_morphine";};
 		_unit addItemToUniform "cse_tourniquet";
 		for "_i" from 1 to 10 do {_unit addItemToVest "cse_bandage_basic";};
 		for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 		_unit addItemToVest "rhs_mag_m67";
 		for "_i" from 1 to 5 do {_unit addItemToVest "Chemlight_green";};
 		for "_i" from 1 to 2 do {_unit addItemToVest "R3F_100Rnd_762x51_MINIMI";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "cse_morphine";};
 		_unit addBackpack "B_AssaultPack_cbr";
 		_unit addItemToBackpack "AGM_NVG_Wide";
 		_unit addGoggles "Pomi_Goggles_Snd";
@@ -551,7 +551,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 5 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		for "_i" from 1 to 5 do {_unit addItemToUniform "cse_bandage_basic";};
-		for "_i" from 1 to 4 do {_unit addItemToUniform "cse_morphine";};
 		_unit addItemToUniform "cse_tourniquet";
 		for "_i" from 1 to 10 do {_unit addItemToVest "cse_bandage_basic";};
 		_unit addItemToVest "AGM_IR_Strobe_Item";
@@ -560,6 +559,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addItemToVest "rhs_mag_m67";
 		for "_i" from 1 to 5 do {_unit addItemToVest "Chemlight_green";};
 		for "_i" from 1 to 2 do {_unit addItemToVest "R3F_200Rnd_556x45_MINIMI";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "cse_morphine";};
 		_unit addBackpack "B_AssaultPack_cbr";
 		_unit addItemToBackpack "AGM_NVG_Wide";
 		_unit addItemToBackpack "R3F_200Rnd_556x45_MINIMI";
@@ -601,7 +601,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addItemToUniform "AGM_Clacker";
 		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		for "_i" from 1 to 5 do {_unit addItemToUniform "cse_bandage_basic";};
-		for "_i" from 1 to 4 do {_unit addItemToUniform "cse_morphine";};
 		_unit addItemToUniform "cse_tourniquet";
 		for "_i" from 1 to 10 do {_unit addItemToVest "cse_bandage_basic";};
 		_unit addItemToVest "AGM_IR_Strobe_Item";
@@ -610,6 +609,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 5 do {_unit addItemToVest "SmokeShell";};
 		for "_i" from 1 to 5 do {_unit addItemToVest "Chemlight_green";};
 		for "_i" from 1 to 8 do {_unit addItemToVest "30Rnd_556x45_Stanag";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "cse_morphine";};
 		_unit addItemToVest "rhs_mag_m67";
 		_unit addBackpack "B_Kitbag_cbr";
 		_unit addItemToBackpack "MineDetector";
@@ -650,7 +650,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		for "_i" from 1 to 5 do {_unit addItemToUniform "cse_bandage_basic";};
-		for "_i" from 1 to 4 do {_unit addItemToUniform "cse_morphine";};
 		_unit addItemToUniform "cse_tourniquet";
 		for "_i" from 1 to 10 do {_unit addItemToVest "cse_bandage_basic";};
 		_unit addItemToVest "AGM_IR_Strobe_Item";
@@ -659,6 +658,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addItemToVest "muzzle_snds_M";
 		for "_i" from 1 to 5 do {_unit addItemToVest "Chemlight_green";};
 		for "_i" from 1 to 5 do {_unit addItemToVest "30Rnd_556x45_Stanag";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "cse_morphine";};
 		_unit addItemToVest "SmokeShell";
 		_unit addBackpack "B_Kitbag_cbr";
 		_unit addItemToBackpack "STI_84MM_HEAT";
@@ -707,6 +707,8 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addItemToVest "AGM_NVG_Wide";
 		_unit addItemToVest "rhsusf_acc_M2010S";
 		for "_i" from 1 to 5 do {_unit addItemToVest "Chemlight_green";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "cse_epinephrine";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "cse_morphine";};
 		for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellPurple";};
 		for "_i" from 1 to 6 do {_unit addItemToVest "rhsusf_5Rnd_300winmag_xm2010";};
 		_unit addBackpack "B_Kitbag_cbr";
@@ -761,6 +763,8 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 5 do {_unit addItemToVest "Chemlight_green";};
 		for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellPurple";};
 		for "_i" from 1 to 8 do {_unit addItemToVest "30Rnd_556x45_Stanag";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "cse_epinephrine";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "cse_morphine";};
 		_unit addBackpack "B_Kitbag_cbr";
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "APERSTripMine_Wire_Mag";};
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "ClaymoreDirectionalMine_Remote_Mag";};
