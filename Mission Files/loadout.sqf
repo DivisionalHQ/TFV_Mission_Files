@@ -292,7 +292,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		for "_i" from 1 to 5 do {_unit addItemToUniform "cse_bandage_basic";};
-		for "_i" from 1 to 2 do {_unit addItemToUniform "cse_morphine";};
+		for "_i" from 1 to 4 do {_unit addItemToUniform "cse_morphine";};
 		_unit addItemToUniform "cse_tourniquet";
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_CableTie";};
@@ -349,7 +349,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		for "_i" from 1 to 5 do {_unit addItemToUniform "cse_bandage_basic";};
-		for "_i" from 1 to 2 do {_unit addItemToUniform "cse_morphine";};
+		for "_i" from 1 to 4 do {_unit addItemToUniform "cse_morphine";};
 		_unit addItemToUniform "cse_tourniquet";
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_CableTie";};
@@ -411,9 +411,9 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 6 do {_unit addItemToVest "30Rnd_556x45_Stanag";};
 		_unit addBackpack "B_Kitbag_cbr";
 		for "_i" from 1 to 30 do {_unit addItemToBackpack "cse_packing_bandage";};
-		for "_i" from 1 to 10 do {_unit addItemToBackpack "cse_morphine";};
-		for "_i" from 1 to 10 do {_unit addItemToBackpack "cse_epinephrine";};
-		for "_i" from 1 to 10 do {_unit addItemToBackpack "cse_atropine";};
+		for "_i" from 1 to 15 do {_unit addItemToBackpack "cse_morphine";};
+		for "_i" from 1 to 15 do {_unit addItemToBackpack "cse_epinephrine";};
+		for "_i" from 1 to 15 do {_unit addItemToBackpack "cse_atropine";};
 		for "_i" from 1 to 5 do {_unit addItemToBackpack "cse_blood_iv";};
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "cse_personal_aid_kit";};
 		_unit addGoggles "Pomi_Goggles_Snd";
@@ -455,7 +455,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_CableTie";};
 		for "_i" from 1 to 5 do {_unit addItemToUniform "cse_bandage_basic";};
-		for "_i" from 1 to 2 do {_unit addItemToUniform "cse_morphine";};
+		for "_i" from 1 to 4 do {_unit addItemToUniform "cse_morphine";};
 		_unit addItemToUniform "cse_tourniquet";
 		_unit addItemToVest "muzzle_snds_M";
 		for "_i" from 1 to 5 do {_unit addItemToVest "Chemlight_green";};
@@ -507,7 +507,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 5 do {_unit addItemToUniform "cse_bandage_basic";};
-		for "_i" from 1 to 2 do {_unit addItemToUniform "cse_morphine";};
+		for "_i" from 1 to 4 do {_unit addItemToUniform "cse_morphine";};
 		_unit addItemToUniform "cse_tourniquet";
 		for "_i" from 1 to 10 do {_unit addItemToVest "cse_bandage_basic";};
 		for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
@@ -551,7 +551,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 5 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		for "_i" from 1 to 5 do {_unit addItemToUniform "cse_bandage_basic";};
-		for "_i" from 1 to 2 do {_unit addItemToUniform "cse_morphine";};
+		for "_i" from 1 to 4 do {_unit addItemToUniform "cse_morphine";};
 		_unit addItemToUniform "cse_tourniquet";
 		for "_i" from 1 to 10 do {_unit addItemToVest "cse_bandage_basic";};
 		_unit addItemToVest "AGM_IR_Strobe_Item";
@@ -601,7 +601,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addItemToUniform "AGM_Clacker";
 		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		for "_i" from 1 to 5 do {_unit addItemToUniform "cse_bandage_basic";};
-		for "_i" from 1 to 2 do {_unit addItemToUniform "cse_morphine";};
+		for "_i" from 1 to 4 do {_unit addItemToUniform "cse_morphine";};
 		_unit addItemToUniform "cse_tourniquet";
 		for "_i" from 1 to 10 do {_unit addItemToVest "cse_bandage_basic";};
 		_unit addItemToVest "AGM_IR_Strobe_Item";
@@ -650,7 +650,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		for "_i" from 1 to 5 do {_unit addItemToUniform "cse_bandage_basic";};
-		for "_i" from 1 to 2 do {_unit addItemToUniform "cse_morphine";};
+		for "_i" from 1 to 4 do {_unit addItemToUniform "cse_morphine";};
 		_unit addItemToUniform "cse_tourniquet";
 		for "_i" from 1 to 10 do {_unit addItemToVest "cse_bandage_basic";};
 		_unit addItemToVest "AGM_IR_Strobe_Item";
@@ -700,7 +700,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
 		_unit addItemToVest "AGM_IR_Strobe_Item";
 		for "_i" from 1 to 5 do {_unit addItemToUniform "cse_bandage_basic";};
-		for "_i" from 1 to 2 do {_unit addItemToUniform "cse_morphine";};
+		for "_i" from 1 to 4 do {_unit addItemToUniform "cse_morphine";};
 		_unit addItemToUniform "cse_tourniquet";
 		for "_i" from 1 to 10 do {_unit addItemToVest "cse_bandage_basic";};
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_CableTie";};
@@ -749,7 +749,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addItemToUniform "AGM_Clacker";
 		_unit addItemToUniform "AGM_ItemKestrel";
 		for "_i" from 1 to 5 do {_unit addItemToUniform "cse_bandage_basic";};
-		for "_i" from 1 to 2 do {_unit addItemToUniform "cse_morphine";};
+		for "_i" from 1 to 4 do {_unit addItemToUniform "cse_morphine";};
 		_unit addItemToUniform "cse_tourniquet";
 		for "_i" from 1 to 10 do {_unit addItemToVest "cse_bandage_basic";};
 		for "_i" from 1 to 2 do {_unit addItemToUniform "RH_7Rnd_45cal_m1911";};
