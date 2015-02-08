@@ -27,13 +27,13 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 //FNG --------------------------------------------------------------
 	
 	//RAVOSK-----------------------------------------------------------------------
-		if (((profilename find "Ravosk") != -1) && (typeOf _unit) in _TFVWood) then 
+		if (((profilename find "Rec.") != -1) && (typeOf _unit) in _TFVWood) then 
 		{
 			_unit forceAddUniform "TFV_Uniform_Wood_FNG";
 			_unit addVest "TFV_Vest_Standard_Wood_FNG";
 		};
 
-		if (((profilename find "Ravosk") != -1) && (typeOf _unit) in _TFVDesert) then 
+		if (((profilename find "Rec.") != -1) && (typeOf _unit) in _TFVDesert) then 
 		{
 			_unit forceAddUniform "TFV_Uniform_Desert_FNG";
 			_unit addVest "TFV_Vest_Standard_Desert_FNG";
@@ -47,6 +47,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		{
 			_unit forceAddUniform "TFV_Uniform_Wood_Eklund";
 			_unit addVest "TFV_Vest_Standard_Wood_Eklund";
+			_unit addHeadgear "tfv_helmet_wood_eklund";
 		};
 
 		if (((profilename find "Eklund") != -1) && (typeOf _unit) in _TFVDesert) then 
@@ -60,6 +61,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		{
 			_unit forceAddUniform "TFV_Uniform_Wood_Gjerde";
 			_unit addVest "TFV_Vest_Standard_Wood_Gjerde";
+			_unit addHeadgear "tfv_helmet_wood_gjerde";
 		};
 		
 		if (((profilename find "Gjerde") != -1) && (typeOf _unit) in _TFVDesert) then 
@@ -73,6 +75,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		{
 			_unit forceAddUniform "TFV_Uniform_Wood_Grepperud";
 			_unit addVest "TFV_Vest_Standard_Wood_Grepperud";
+			_unit addHeadgear "tfv_helmet_wood_grepperud";
 		};
 	
 		if (((profilename find "Grepperud") != -1) && (typeOf _unit) in _TFVDesert) then 
@@ -87,6 +90,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		{
 			_unit forceAddUniform "TFV_Uniform_Wood_Haagenrud";
 			_unit addVest "TFV_Vest_Standard_Wood_Haagenrud";
+			_unit addHeadgear "tfv_helmet_wood_haagenrud";
 		};
 
 		if (((profilename find "Haagenrud") != -1) && (typeOf _unit) in _TFVDesert) then 
@@ -100,6 +104,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		{
 			_unit forceAddUniform "TFV_Uniform_Wood_Hanslien";
 			_unit addVest "TFV_Vest_Standard_Wood_Hanslien";
+			_unit addHeadgear "tfv_helmet_wood_hanslien";
 		};
 	
 		if (((profilename find "Hanslien") != -1) && (typeOf _unit) in _TFVDesert) then 
@@ -114,6 +119,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		{
 			_unit forceAddUniform "TFV_Uniform_Wood_Hofstad";
 			_unit addVest "TFV_Vest_Standard_Wood_Hofstad";
+			_unit addHeadgear "tfv_helmet_wood_hofstad";
 		};
 
 		 if (((profilename find "Hofstad") != -1) && (typeOf _unit) in _TFVDesert) then {
@@ -127,6 +133,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		{
 			_unit forceAddUniform "TFV_Uniform_Wood_Hoven";
 			_unit addVest "TFV_Vest_Standard_Wood_Hoven";
+			_unit addHeadgear "tfv_helmet_wood_hoven";
 		};
 	
 		 if (((profilename find "Hoven") != -1) && (typeOf _unit) in _TFVDesert) then 
@@ -141,6 +148,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		{
 			_unit forceAddUniform "TFV_Uniform_Wood_Husby";
 			_unit addVest "TFV_Vest_Standard_Wood_Husby";
+			_unit addHeadgear "tfv_helmet_wood_husby";
 		};
 
 		if (((profilename find "Husby") != -1) && (typeOf _unit) in _TFVDesert) then 
@@ -149,26 +157,13 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			_unit addVest "TFV_Vest_Standard_Desert_Husby";
 		};
  
-	//JENSEN----------------------------------------------------------------------
-	
-		if (((profilename find "Jensen") != -1) && (typeOf _unit) in _TFVWood) then
-		{
-			_unit forceAddUniform "TFV_Uniform_Wood_Jensen";
-			_unit addVest "TFV_Vest_Standard_Wood_Jensen";
-		};
- 
-		if (((profilename find "Jensen") != -1) && (typeOf _unit) in _TFVDesert) then 
-		{
-			_unit forceAddUniform "TFV_Uniform_Desert_Jensen";
-			_unit addVest "TFV_Vest_Standard_Desert_Jensen";
-		};
- 
 	//LØBERG----------------------------------------------------------------------
 	
 		if (((profilename find "Løberg") != -1) && (typeOf _unit) in _TFVWood) then 
 		{
 			_unit forceAddUniform "TFV_Uniform_Wood_Loberg";
 			_unit addVest "TFV_Vest_Standard_Wood_Loberg";
+			_unit addHeadgear "tfv_helmet_wood_loberg";
 		};
 	
 		if (((profilename find "Løberg") != -1) && (typeOf _unit) in _TFVDesert) then 
@@ -183,6 +178,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	 	{
 			_unit forceAddUniform "TFV_Uniform_Desert_Marthinsen";
 			_unit addVest "TFV_Vest_Standard_Desert_Marthinsen";
+			_unit addHeadgear "tfv_helmet_wood_marthinsen";
 		};
 	
 		if (((profilename find "Marthinsen") != -1) && (typeOf _unit) in _TFVWood) then 
@@ -191,26 +187,13 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 			_unit addVest "TFV_Vest_Standard_Wood_Marthinsen";
 		};
 
-	//MURVOLD----------------------------------------------------------------------
- 
-		if (((profilename find "Murvold") != -1) && (typeOf _unit) in _TFVWood) then 
-		{
-			_unit forceAddUniform "TFV_Uniform_Wood_Murvold";
-			_unit addVest "TFV_Vest_Standard_Wood_Murvold";
-		};
-
-		if (((profilename find "Murvold") != -1) && (typeOf _unit) in _TFVDesert) then 
-		{
-			_unit forceAddUniform "TFV_Uniform_Desert_Murvold";
-			_unit addVest "TFV_Vest_Standard_Desert_Murvold";
-		};
-	
 	//MYKLEBUST----------------------------------------------------------------------
  
 		if (((profilename find "Myklebust") != -1) && (typeOf _unit) in _TFVWood) then 
 		{
 			_unit forceAddUniform "TFV_Uniform_Wood_Myklebust";
 			_unit addVest "TFV_Vest_Standard_Wood_Myklebust";
+			_unit addHeadgear "tfv_helmet_wood_myklebust";
 		};
 
 	 	if (((profilename find "Myklebust") != -1) && (typeOf _unit) in _TFVDesert) then 
@@ -225,6 +208,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		{
 			_unit forceAddUniform "TFV_Uniform_Wood_Myrvang";
 			_unit addVest "TFV_Vest_Standard_Wood_Myrvang";
+			_unit addHeadgear "tfv_helmet_wood_myrvang";
 		};
 
 		if (((profilename find "Myrvang") != -1) && (typeOf _unit) in _TFVDesert) then 
@@ -239,6 +223,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		{
 			_unit forceAddUniform "TFV_Uniform_Wood_Pedersen";
 			_unit addVest "TFV_Vest_Standard_Wood_Pedersen";
+			_unit addHeadgear "tfv_helmet_wood_pedersen";
 		};
 	
 	 	if (((profilename find "Pedersen") != -1) && (typeOf _unit) in _TFVDesert) then 
@@ -253,6 +238,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		{
 			_unit forceAddUniform "TFV_Uniform_Wood_Vedal";
 			_unit addVest "TFV_Vest_Standard_Wood_Vedal";
+			_unit addHeadgear "tfv_helmet_wood_vedal";
 		};
 	
 		if (((profilename find "Vedal") != -1) && (typeOf _unit) in _TFVDesert) then 
@@ -267,6 +253,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		{
 			_unit forceAddUniform "TFV_Uniform_Wood_Walkden";
 			_unit addVest "TFV_Vest_Standard_Wood_Walkden";
+			_unit addHeadgear "tfv_helmet_wood_walkden";
 		};
 	
 	 	if (((profilename find "Walkden") != -1) && (typeOf _unit) in _TFVDesert) then 
