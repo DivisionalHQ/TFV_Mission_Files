@@ -754,9 +754,10 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addGoggles "Pomi_Goggles_Snd";
 
 	comment "Add weapons";
-		_unit addWeapon "RH_Mk12mod1";
-		_unit addPrimaryWeaponItem "RH_peq15_top";
-		_unit addPrimaryWeaponItem "RH_eotech553";
+		_unit addWeapon "rhs_weap_m14ebrri";
+		_unit addPrimaryWeaponItem "muzzle_snds_H";
+		_unit addPrimaryWeaponItem "rhsusf_acc_anpeq15side";
+		_unit addPrimaryWeaponItem "optic_MRCO";
 		_unit addWeapon "RH_kimber";
 		_unit addHandgunItem "RH_X300";
 		_unit addWeapon "AGM_Vector";
