@@ -747,7 +747,6 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addBackpack "tf_rt1523g_rhs";
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "APERSTripMine_Wire_Mag";};
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "ClaymoreDirectionalMine_Remote_Mag";};
-		for "_i" from 1 to 2 do {_unit addItemToBackpack "SLAMDirectionalMine_Wire_Mag";};
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "SmokeShellPurple";};
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "SmokeShell";};
 		_unit addItemToBackpack "itemAndroid";
