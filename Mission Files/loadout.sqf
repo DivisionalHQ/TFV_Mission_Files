@@ -1,9 +1,9 @@
 _unit = _this select 0; // reference to the unit
 
-_TFVWood = ["TFV_SL_Wood","TFV_FTL_Wood","TFV_Medic_Wood","TFV_MG1_Wood","TFV_MG2_Wood","TFV_Rifleman_Wood","TFV_AT_Wood","TFV_Grenadier_Wood","TFV_CrewCO_Wood","TFV_Crew_Wood","TFV_HeliPilot_Wood","TFV_HeliCrew_Wood","TFV_JetPilot_Wood"];
+_TFVWood = ["TFV_Sniper_Wood","TFV_SL_Wood","TFV_FTL_Wood","TFV_Medic_Wood","TFV_MG1_Wood","TFV_MG2_Wood","TFV_Rifleman_Wood","TFV_AT_Wood","TFV_Grenadier_Wood","TFV_CrewCO_Wood","TFV_Crew_Wood","TFV_HeliPilot_Wood","TFV_HeliCrew_Wood","TFV_JetPilot_Wood"];
 _TFVWoodRecon = [];
 
-_TFVDesert = ["TFV_SL_Desert","TFV_FTL_Desert","TFV_Medic_Desert","TFV_MG1_Desert","TFV_MG2_Desert","TFV_Rifleman_Desert","TFV_AT_Desert","TFV_Grenadier_Desert","TFV_CrewCO_Desert","TFV_Crew_Desert","TFV_HeliPilot_Desert","TFV_HeliCrew_Desert","TFV_JetPilot_Desert"];
+_TFVDesert = ["TFV_Sniper_Desert","TFV_SL_Desert","TFV_FTL_Desert","TFV_Medic_Desert","TFV_MG1_Desert","TFV_MG2_Desert","TFV_Rifleman_Desert","TFV_AT_Desert","TFV_Grenadier_Desert","TFV_CrewCO_Desert","TFV_Crew_Desert","TFV_HeliPilot_Desert","TFV_HeliCrew_Desert","TFV_JetPilot_Desert"];
 _TFVDesertRecon = [];
 
 _TFVSquadLeader = 			["TFV_SL_Wood","TFV_SL_Desert"];
