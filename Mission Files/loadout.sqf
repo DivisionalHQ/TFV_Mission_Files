@@ -744,7 +744,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 8 do {_unit addItemToVest "30Rnd_556x45_Stanag";};
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_Epipen";};
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_Morphine";};
-		_unit addBackpack "B_Kitbag_cbr";
+		_unit addBackpack "tf_rt1523g_rhs";
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "APERSTripMine_Wire_Mag";};
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "ClaymoreDirectionalMine_Remote_Mag";};
 		for "_i" from 1 to 2 do {_unit addItemToBackpack "SLAMDirectionalMine_Wire_Mag";};
