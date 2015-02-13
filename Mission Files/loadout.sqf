@@ -691,6 +691,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_Morphine";};
 		for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellPurple";};
 		for "_i" from 1 to 6 do {_unit addItemToVest "rhsusf_5Rnd_300winmag_xm2010";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "Laserbatteries";};
 		_unit addBackpack "B_Kitbag_cbr";
 		for "_i" from 1 to 4 do {_unit addItemToBackpack "rhsusf_5Rnd_300winmag_xm2010";};
 		_unit addGoggles "Pomi_Goggles_Snd";
@@ -698,10 +699,10 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Add weapons";
 		_unit addWeapon "rhs_weap_XM2010_sa";
 		_unit addPrimaryWeaponItem "rhsusf_acc_anpeq15side";
-		_unit addPrimaryWeaponItem "rhsusf_acc_LEUPOLDMK4_2";
+		_unit addPrimaryWeaponItem "optic_mas_LRPS";
 		_unit addWeapon "RH_kimber";
 		_unit addHandgunItem "RH_X300";
-		_unit addWeapon "AGM_Vector";
+		_unit addWeapon "Laserdesignator";
 
 	comment "Add items";
 		_unit linkItem "ItemMap";
@@ -753,10 +754,10 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		_unit addGoggles "Pomi_Goggles_Snd";
 
 	comment "Add weapons";
-		_unit addWeapon "rhs_weap_m14ebrri";
-		_unit addPrimaryWeaponItem "muzzle_snds_H";
-		_unit addPrimaryWeaponItem "rhsusf_acc_anpeq15side";
-		_unit addPrimaryWeaponItem "optic_MRCO";
+		_unit addWeapon "rhs_weap_m16a4_bipod";
+		_unit addPrimaryWeaponItem "muzzle_snds_M";
+		_unit addPrimaryWeaponItem "rhsusf_acc_anpeq15A";
+		_unit addPrimaryWeaponItem "rhsusf_acc_LEUPOLDMK4_2";
 		_unit addWeapon "RH_kimber";
 		_unit addHandgunItem "RH_X300";
 		_unit addWeapon "AGM_Vector";
