@@ -835,7 +835,7 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		removeGoggles _unit;
 
 	comment "Add containers";
-		_unit forceAddUniform "U_B_HeliPilotCoveralls";
+		_unit forceAddUniform "NOR_Uniform_Crew_Standard";
 		_unit addItemToUniform "H_Watchcap_camo";
 		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
 		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_15Rnd_9x19_M9";};
