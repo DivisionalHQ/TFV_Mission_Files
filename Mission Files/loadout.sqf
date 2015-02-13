@@ -791,15 +791,17 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_15Rnd_9x19_M9";};
 		for "_i" from 1 to 5 do {_unit addItemToUniform "AGM_Bandage";};
 		for "_i" from 1 to 10 do {_unit addItemToVest "AGM_Bandage";};
-		_unit addItemToVest "AGM_IR_Strobe_Item";
+		for "_i" from 1 to 2 do {_unit addItemToVest "AGM_IR_Strobe_Item";};
 		_unit addItemToVest "AGM_NVG_Wide";
 		for "_i" from 1 to 5 do {_unit addItemToVest "Chemlight_green";};
 		for "_i" from 1 to 5 do {_unit addItemToVest "C1987_40Rnd_46x30_mp7";};
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_Morphine";};
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_Epipen";};
-		_unit addItemToVest "SmokeShell";
+		for "_i" from 1 to 3 do {_unit addItemToVest "SmokeShellGreen";};
+		for "_i" from 1 to 3 do {_unit addItemToVest "SmokeShellBlue";};
 		_unit addBackpack "B_AssaultPack_rgr";
 		_unit addItemToBackpack "ToolKit";
+		for "_i" from 1 to 2 do {_unit addItemToBackpack "AGM_Bloodbag";};
 		_unit addHeadgear "H_PilotHelmetHeli_O";
 
 	comment "Add weapons";
@@ -841,15 +843,17 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_15Rnd_9x19_M9";};
 		for "_i" from 1 to 5 do {_unit addItemToUniform "AGM_Bandage";};
 		for "_i" from 1 to 10 do {_unit addItemToVest "AGM_Bandage";};
-		_unit addItemToVest "AGM_IR_Strobe_Item";
+		for "_i" from 1 to 2 do {_unit addItemToVest "AGM_IR_Strobe_Item";};
 		_unit addItemToVest "AGM_NVG_Wide";
 		for "_i" from 1 to 5 do {_unit addItemToVest "Chemlight_green";};
 		for "_i" from 1 to 5 do {_unit addItemToVest "C1987_40Rnd_46x30_mp7";};
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_Morphine";};
 		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_Epipen";};
-		_unit addItemToVest "SmokeShell";
+		for "_i" from 1 to 3 do {_unit addItemToVest "SmokeShellGreen";};
+		for "_i" from 1 to 3 do {_unit addItemToVest "SmokeShellBlue";};
 		_unit addBackpack "B_AssaultPack_rgr";
 		_unit addItemToBackpack "ToolKit";
+		for "_i" from 1 to 2 do {_unit addItemToBackpack "AGM_Bloodbag";};
 		_unit addHeadgear "H_CrewHelmetHeli_O";
 
 	comment "Add weapons";
