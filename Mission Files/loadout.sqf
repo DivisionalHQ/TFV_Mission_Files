@@ -772,3 +772,103 @@ if (!(local _unit)) exitwith {}; // if unit is not local to the client, terminat
 	comment "Set identity";
 		[_unit,"NOR_Insignia_viking_Desert"] call bis_fnc_setUnitInsignia;
 	};
+	
+//HELI-PILOT-----------------------------------------------------------
+	if ((typeOf _unit) in _TFVHeliPilot) then 
+	{
+	
+	comment "Remove existing items";
+		removeAllWeapons _unit;
+		removeAllItems _unit;
+		removeAllAssignedItems _unit;
+		removeBackpack _unit;
+		removeGoggles _unit;
+
+	comment "Add containers";
+		_unit forceAddUniform "U_B_HeliPilotCoveralls";
+		_unit addItemToUniform "H_Watchcap_camo";
+		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
+		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_15Rnd_9x19_M9";};
+		for "_i" from 1 to 5 do {_unit addItemToUniform "AGM_Bandage";};
+		for "_i" from 1 to 10 do {_unit addItemToVest "AGM_Bandage";};
+		_unit addItemToVest "AGM_IR_Strobe_Item";
+		_unit addItemToVest "AGM_NVG_Wide";
+		for "_i" from 1 to 5 do {_unit addItemToVest "Chemlight_green";};
+		for "_i" from 1 to 5 do {_unit addItemToVest "C1987_40Rnd_46x30_mp7";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_Morphine";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_Epipen";};
+		_unit addItemToVest "SmokeShell";
+		_unit addBackpack "B_AssaultPack_rgr";
+		_unit addItemToBackpack "ToolKit";
+		_unit addHeadgear "H_PilotHelmetHeli_O";
+
+	comment "Add weapons";
+		_unit addWeapon "C1987_MP7_wcam";
+		_unit addPrimaryWeaponItem "C1987_o_suppressor_wcam";
+		_unit addPrimaryWeaponItem "FHQ_acc_LLM01L";
+		_unit addPrimaryWeaponItem "C1987_zeiss_AIM_wcam";
+		_unit addWeapon "RH_m9c";
+		_unit addHandgunItem "RH_m9qd";
+		_unit addHandgunItem "RH_X300";
+		_unit addWeapon "Binocular";
+
+	comment "Add items";
+		_unit linkItem "ItemMap";
+		_unit linkItem "ItemCompass";
+		_unit linkItem "tf_microdagr";
+		_unit linkItem "ItemGPS";
+		_unit linkItem "itemRadio";
+
+	comment "Set identity";
+		[_unit,"NOR_Insignia_viking_Desert"] call bis_fnc_setUnitInsignia;
+	};
+
+//HELI-CREW-----------------------------------------------------------
+	if ((typeOf _unit) in _TFVHeliCrew) then 
+	{
+	
+	comment "Remove existing items";
+		removeAllWeapons _unit;
+		removeAllItems _unit;
+		removeAllAssignedItems _unit;
+		removeBackpack _unit;
+		removeGoggles _unit;
+
+	comment "Add containers";
+		_unit forceAddUniform "U_B_HeliPilotCoveralls";
+		_unit addItemToUniform "H_Watchcap_camo";
+		for "_i" from 1 to 4 do {_unit addItemToUniform "AGM_CableTie";};
+		for "_i" from 1 to 4 do {_unit addItemToUniform "RH_15Rnd_9x19_M9";};
+		for "_i" from 1 to 5 do {_unit addItemToUniform "AGM_Bandage";};
+		for "_i" from 1 to 10 do {_unit addItemToVest "AGM_Bandage";};
+		_unit addItemToVest "AGM_IR_Strobe_Item";
+		_unit addItemToVest "AGM_NVG_Wide";
+		for "_i" from 1 to 5 do {_unit addItemToVest "Chemlight_green";};
+		for "_i" from 1 to 5 do {_unit addItemToVest "C1987_40Rnd_46x30_mp7";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_Morphine";};
+		for "_i" from 1 to 4 do {_unit addItemToVest "AGM_Epipen";};
+		_unit addItemToVest "SmokeShell";
+		_unit addBackpack "B_AssaultPack_rgr";
+		_unit addItemToBackpack "ToolKit";
+		_unit addHeadgear "H_CrewHelmetHeli_O";
+
+	comment "Add weapons";
+		_unit addWeapon "C1987_MP7_wcam";
+		_unit addPrimaryWeaponItem "C1987_o_suppressor_wcam";
+		_unit addPrimaryWeaponItem "FHQ_acc_LLM01L";
+		_unit addPrimaryWeaponItem "C1987_zeiss_AIM_wcam";
+		_unit addWeapon "RH_m9c";
+		_unit addHandgunItem "RH_m9qd";
+		_unit addHandgunItem "RH_X300";
+		_unit addWeapon "Binocular";
+
+	comment "Add items";
+		_unit linkItem "ItemMap";
+		_unit linkItem "ItemCompass";
+		_unit linkItem "tf_microdagr";
+		_unit linkItem "ItemGPS";
+		_unit linkItem "itemRadio";
+
+	comment "Set identity";
+		[_unit,"NOR_Insignia_viking_Desert"] call bis_fnc_setUnitInsignia;
+	};
